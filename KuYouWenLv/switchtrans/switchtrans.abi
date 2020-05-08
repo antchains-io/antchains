@@ -1,0 +1,46 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Tue Apr 16 20:28:36 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "settrans",
+            "base": "",
+            "fields": [
+                {
+                    "name": "switch_state",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "swstate",
+            "base": "",
+            "fields": [
+                {
+                    "name": "switch_state",
+                    "type": "uint8"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "settrans",
+            "type": "settrans",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "swstate",
+            "type": "swstate",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}

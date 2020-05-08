@@ -1,0 +1,55 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Thu Apr  4 10:50:25 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "updatecheck",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "from",
+                    "type": "uint8"
+                },
+                {
+                    "name": "to",
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "name": "updatevalue",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "to",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "updatecheck",
+            "type": "updatecheck",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "updatevalue",
+            "type": "updatevalue",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}

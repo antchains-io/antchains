@@ -1,0 +1,46 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Wed Apr 17 10:09:31 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "extracttime",
+            "base": "",
+            "fields": [
+                {
+                    "name": "extract_time_hour",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "setpextract",
+            "base": "",
+            "fields": [
+                {
+                    "name": "extract_time_hour",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "setpextract",
+            "type": "setpextract",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "extracttime",
+            "type": "extracttime",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}

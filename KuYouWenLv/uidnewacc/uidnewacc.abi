@@ -1,0 +1,92 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Thu May  9 18:56:39 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "eraseuid",
+            "base": "",
+            "fields": [
+                {
+                    "name": "uid",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "insertuid",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "uid",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "newacc",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "publickey",
+                    "type": "string"
+                },
+                {
+                    "name": "uid",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "uidnewaccs",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "sha256uid",
+                    "type": "checksum256"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "eraseuid",
+            "type": "eraseuid",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "insertuid",
+            "type": "insertuid",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "newacc",
+            "type": "newacc",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "uidnewaccs",
+            "type": "uidnewaccs",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}

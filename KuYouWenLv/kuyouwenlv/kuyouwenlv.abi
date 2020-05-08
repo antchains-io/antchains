@@ -1,0 +1,127 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Thu May  9 18:58:00 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "erase",
+            "base": "",
+            "fields": [
+                {
+                    "name": "primarykey",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "insert",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "uint8"
+                },
+                {
+                    "name": "primarykey",
+                    "type": "uint64"
+                },
+                {
+                    "name": "order_amount",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "kuyouwenlvs",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "uint64"
+                },
+                {
+                    "name": "primarykey",
+                    "type": "uint64"
+                },
+                {
+                    "name": "order_amount",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "reqkywl",
+            "base": "",
+            "fields": [
+                {
+                    "name": "primarykey",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "updatetype",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "type",
+                    "type": "uint8"
+                },
+                {
+                    "name": "primarykey",
+                    "type": "uint64"
+                },
+                {
+                    "name": "order_amount",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "erase",
+            "type": "erase",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "insert",
+            "type": "insert",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "reqkywl",
+            "type": "reqkywl",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "updatetype",
+            "type": "updatetype",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "kuyouwenlvs",
+            "type": "kuyouwenlvs",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}

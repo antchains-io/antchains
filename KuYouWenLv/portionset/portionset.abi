@@ -1,0 +1,46 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Mon Apr  8 17:34:02 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "portion",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_portion",
+                    "type": "int64"
+                }
+            ]
+        },
+        {
+            "name": "setportion",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_portion",
+                    "type": "int64"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "setportion",
+            "type": "setportion",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "portion",
+            "type": "portion",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}

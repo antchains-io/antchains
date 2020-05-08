@@ -1,0 +1,46 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Tue Mar 26 20:26:32 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "precision",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_precision",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "name": "setprecision",
+            "base": "",
+            "fields": [
+                {
+                    "name": "order_precision",
+                    "type": "uint64"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "setprecision",
+            "type": "setprecision",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "precision",
+            "type": "precision",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}

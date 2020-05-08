@@ -1,0 +1,70 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Tue Mar 26 20:23:47 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "insert",
+            "base": "",
+            "fields": [
+                {
+                    "name": "referrer",
+                    "type": "name"
+                },
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "publickey",
+                    "type": "string"
+                },
+                {
+                    "name": "identifier",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "registrations",
+            "base": "",
+            "fields": [
+                {
+                    "name": "referrer",
+                    "type": "name"
+                },
+                {
+                    "name": "user",
+                    "type": "name"
+                },
+                {
+                    "name": "pubkey",
+                    "type": "string"
+                },
+                {
+                    "name": "identifier",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "insert",
+            "type": "insert",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "registration",
+            "type": "registrations",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
